@@ -25,6 +25,7 @@ function App() {
 
   return (
     <>
+      <h1> Hello from a new branch</h1>
       <input type='text' placeholder='Text...' onChange={handleSearchTerm} />
       <p>{debouncedValue}</p>
     </>
